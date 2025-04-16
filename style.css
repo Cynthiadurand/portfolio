@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: rgba(239, 111, 209, 0.235);
+    background-color: rgba(239, 111, 209, 0.297);
 }
 
 h3 {
@@ -34,6 +34,14 @@ h3 {
 
 /* WIDTH */
 
+.w10 {
+    width: 10%;
+}
+
+.w15 {
+    width: 15%;
+}
+
 .w25 {
     width: 25%;
 }
@@ -41,12 +49,19 @@ h3 {
 .w30 {
     width: 30%;
 }
+.w40 {
+    width: 40%;
+}
 .w50 {
     width: 50%;
 }
 
 .w70 {
     width: 70%;
+}
+
+.w80 {
+    width: 80%;
 }
 
 .w90 {
@@ -87,6 +102,15 @@ h3 {
     padding-top: 150px;
 }
 
+/* PADDING BOTTOM */
+
+.bottom20 {
+    padding-bottom: 20px;
+}
+
+.bottom50 {
+    padding-bottom: 50px;
+}
 
 .textCenter {
     text-align: center;
@@ -96,6 +120,15 @@ h3 {
     background-color: red;
 }
 
+/* MARGIN */
+
+.margin {
+    margin: 0 30px;    
+}
+
+.left {
+    margin-left: 70px;
+}
 
 .btn{
     background-color: rgb(26, 25, 25);
@@ -130,6 +163,7 @@ header>nav {
 }
 
 /* Présentation */
+
 .centered {
     position: absolute;
     top: 40%;
@@ -138,24 +172,30 @@ header>nav {
 }
 
 /* Mes projets */
+
 .divProject {
     background-color: rgba(0, 0, 0, 0.142);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 12px;
+    
 }
 
 .imgProject {
-    border-radius:70px;
-    padding-top:20px;
-    padding-bottom:20px;
-    background-size:cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
 }
 
-
 .divImg {
-    width: 320px;
-    height: 200px;
     margin: auto;
     display: block;
+    object-fit: contain;
+}
+
+/* Compétences */
+
+.underlineBold {
+    text-decoration: underline;
+    font-weight: bold;
 }
