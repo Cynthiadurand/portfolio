@@ -5,6 +5,8 @@
     text-decoration: none;
 }
 
+/* Classe générale */
+
 .container {
     max-width: 1000px;
     margin-left: auto;
@@ -25,8 +27,14 @@
 }
 
 body {
-    background-color: rgba(239, 111, 209, 0.297);
+    background-color: rgba(255, 125, 196, 0.237);
 }
+
+h1 {
+    display: block;
+    font-size: 80px;
+}
+
 
 h3 {
     width: 100%;
@@ -72,6 +80,7 @@ h3 {
     width: 100%;
 }
 
+/* Couleur */
 
 .black {
     color: rgb(11, 11, 11);
@@ -82,26 +91,26 @@ h3 {
 }
 
 /* PADDING TOP */
-.top20 {
-    padding-top: 20px;
-}
 
 .top40 {
     padding-top: 40px;
-}
-
-.top50 {
-    padding-top: 50px;
 }
 
 .top70 {
     padding-top: 70px;
 }
 
+.top100 {
+    padding-top: 100px;
+}
+
 .top150 {
     padding-top: 150px;
 }
 
+.top250 {
+    padding-top: 250px;
+}
 /* PADDING BOTTOM */
 
 .bottom20 {
@@ -112,6 +121,10 @@ h3 {
     padding-bottom: 50px;
 }
 
+.left {
+    padding-left: 50px;
+}
+
 .textCenter {
     text-align: center;
 }
@@ -120,15 +133,6 @@ h3 {
     background-color: red;
 }
 
-/* MARGIN */
-
-.margin {
-    margin: 0 30px;    
-}
-
-.left {
-    margin-left: 70px;
-}
 
 .btn{
     background-color: rgb(26, 25, 25);
@@ -155,14 +159,19 @@ header {
     backdrop-filter: blur(6px);
     z-index: 3;
 }
+
 header>nav {
     margin: auto;
+}
+
+header>nav>ul>li>img {
+    border-radius: 100px;
 }
 .pucesNone {
     list-style: none;
 }
 
-/* Présentation */
+/* Section Présentation */
 
 .centered {
     position: absolute;
@@ -171,31 +180,58 @@ header>nav {
     transform: translate(-50%, -50%);
 }
 
-/* Mes projets */
+/* Section Mes projets */
 
 .divProject {
     background-color: rgba(0, 0, 0, 0.142);
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-radius: 12px;
+    padding-bottom: 20px;
     
 }
 
 .imgProject {
     width: 350px;
-    height: 350px;
+    height: 230px;
     border-radius: 30px;
 }
 
 .divImg {
     margin: auto;
-    display: block;
     object-fit: contain;
 }
 
-/* Compétences */
+/* Section Compétences */
 
 .underlineBold {
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* Marge à l'intérieur de ma div pour centrer */
+
+.contain {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Font Size */
+.fSize50 {
+    font-size: 50px;
+}
+
+.fSize30 {
+    font-size: 30px;
+}
+
+/* Photo */
+.chat {
+    border-radius: 80px;
+    width: 90px;
+}
+
+/* FOOTER */
+
+.bgFooter {
+    background-color: rgba(204, 0, 92, 0.1);
 }
