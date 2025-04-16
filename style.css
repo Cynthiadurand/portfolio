@@ -42,16 +42,8 @@ h3 {
 
 /* WIDTH */
 
-.w10 {
-    width: 10%;
-}
-
 .w15 {
     width: 15%;
-}
-
-.w25 {
-    width: 25%;
 }
 
 .w30 {
@@ -111,6 +103,7 @@ h3 {
 .top250 {
     padding-top: 250px;
 }
+
 /* PADDING BOTTOM */
 
 .bottom20 {
